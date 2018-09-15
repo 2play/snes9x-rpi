@@ -48,16 +48,16 @@
 AvailableJoystick::AvailableJoystick(std::string name):
 	name(name)
 {
-	mapping[JB_A] = 0;
-	mapping[JB_B] = 1;
-	mapping[JB_X] = 2;
+	mapping[JB_A] = 1;
+	mapping[JB_B] = 2;
+	mapping[JB_X] = 0;
 	mapping[JB_Y] = 3;
 	mapping[JB_L] = 4;
 	mapping[JB_R] = 5;
-	mapping[JB_START] = 6;
-	mapping[JB_SELECT] = 7;
-	mapping[JB_ACCEL] = 8;
-	mapping[JB_QUIT] = 9;
+	mapping[JB_START] = 9;
+	mapping[JB_SELECT] = 8;
+	mapping[JB_ACCEL] = 10;
+	mapping[JB_QUIT] = 11;
 }
 
 
